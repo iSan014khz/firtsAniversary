@@ -35,7 +35,7 @@ function App() {
     <>
       <div className="">
         <div className="overflow-hidden">
-          <Header />
+          {/* <Header />*/}
           <Hero />
           <ScrollText />
           <Carta />
