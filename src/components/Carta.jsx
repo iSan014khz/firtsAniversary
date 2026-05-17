@@ -12,7 +12,8 @@ export default function Carta() {
           "Verte cumplir tus objetivos se ha convertido en uno de los míos.",
           "descubrí que cada día te amo más y nuestra relación se fortalece",
           "Estoy muy orgulloso de todo lo que hemos hecho juntos",
-          "todo con el fin de poder ser más feliz contigo.","seguiré siendo ese hombre que te apoye en todo"
+          "todo con el fin de poder ser más feliz contigo.", "seguiré siendo ese hombre que te apoye en todo",
+          "No tengas miedo de nada porque Dios y yo siempre estaremos contigo."
         ]}
         trigger="scroll"
         backgroundColor="transparent"
