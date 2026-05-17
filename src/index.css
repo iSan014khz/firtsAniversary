@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-geist: "Geist Sans", sans-serif;
+  --font-lexend: "Lexend Deca", sans-serif;
+  --font-fira: "Fira Sans", sans-serif;
+  --font-instrument: "Instrument Serif", serif;
+  --font-nunito: "Nunito", sans-serif;
+  --font-mono-geist: "Geist Mono", monospace;
+}
+
+@theme {
+  --color-fondo: #F5EDE0;
+  --color-texto: #3D2314;
+  --color-subrayado: #D4856A;
+  --color-card: #FDF6ED;
+  --color-footer: #3D2314;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-lexend);
+    background-color: var(--color-fondo);
+  }
+}
+
+@utility shadow-aceternity {
+  box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 0.06),
+    0px 1px 1px -0.5px rgb(0 0 0 / 0.06),
+    0px 3px 3px -1.5px rgb(0 0 0 / 0.06),
+    0px 6px 6px -3px rgb(0 0 0 / 0.06),
+    0px 12px 12px -6px rgb(0 0 0 / 0.06),
+    0px 24px 24px -12px rgb(0 0 0 / 0.06);
+}
+
+@utility shadow-ragnarok {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+@utility shadow-derek{
+  box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 0.06),
+      0px 1px 1px -0.5px rgb(0 0 0 / 0.06),
+      0px 3px 3px -1.5px rgb(0 0 0 / 0.06), 
+      0px 6px 6px -3px rgb(0 0 0 / 0.06),
+      0px 12px 12px -6px rgb(0 0 0 / 0.06),
+      0px 24px 24px -12px rgb(0 0 0 / 0.06);
+}
+
+@utility shadow-inner {
+  box-shadow: inset -12px -8px 40px #46464620;
+}
+
+@utility text-shadow-ragnarok {
+    text-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+
+html {
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari */
+}
